@@ -20,7 +20,7 @@ class Ui_Form2(object):
         Form.resize(450, 380)
         self.frame = QtWidgets.QFrame(Form)
         self.frame.setGeometry(QtCore.QRect(0, 0, 451, 381))
-        self.frame.setStyleSheet("#frame {border:none;background-image: url(:/newPrefix/image/back1.png);}")
+        self.frame.setStyleSheet("#frame {border:none;background-image: url(:/newPrefix/back1.png);}")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")

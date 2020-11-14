@@ -24,7 +24,7 @@ class Ui_Form8(object):
         self.frame.setGeometry(QtCore.QRect(0, 0, 620, 520))
         self.frame.setMinimumSize(QtCore.QSize(620, 520))
         self.frame.setMaximumSize(QtCore.QSize(620, 520))
-        self.frame.setStyleSheet("#frame {background-image: url(:/newPrefix/image/back7.png);\n"
+        self.frame.setStyleSheet("#frame {background-image: url(:/newPrefix/back7.png);\n"
 "border:none;}\n"
 "")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
@@ -43,7 +43,7 @@ class Ui_Form8(object):
         font.setKerning(True)
         self.pushButton.setFont(font)
         self.pushButton.setStyleSheet("border-radius:10px;\n"
-"background-image: url(:/newPrefix/image/back3.png);")
+"background-image: url(:/newPrefix/back3.png);")
         self.pushButton.setObjectName("pushButton")
         self.textBrowser = QtWidgets.QTextBrowser(self.frame)
         self.textBrowser.setGeometry(QtCore.QRect(122, 82, 351, 70))
@@ -67,7 +67,7 @@ class Ui_Form8(object):
         font.setPointSize(13)
         self.pushButton_2.setFont(font)
         self.pushButton_2.setStyleSheet("border-radius:10px;\n"
-"background-image: url(:/newPrefix/image/back3.png);")
+"background-image: url(:/newPrefix/back3.png);")
         self.pushButton_2.setObjectName("pushButton_2")
         self.label = QtWidgets.QLabel(self.frame)
         self.label.setGeometry(QtCore.QRect(210, 20, 201, 31))
@@ -81,7 +81,7 @@ class Ui_Form8(object):
         # self.progressBar.setProperty("value", 0)
         self.progressBar.setRange(0, 100)
         self.progressBar.setStyleSheet("border:2px solid grey;border-radius:5px;text-align:center;\n")
-        # self.progressBar.setStyleSheet("border-radius: 5px;background-image:url(:/newPrefix/image/bar.png);text-align: center;")
+        # self.progressBar.setStyleSheet("border-radius: 5px;background-image:url(:/newPrefix/bar.png);text-align: center;")
         self.progressBar.setObjectName("progressBar")
         op = QtWidgets.QGraphicsOpacityEffect()
         op.setOpacity(0.7)
@@ -131,7 +131,7 @@ class Ui_Form8(object):
         font.setKerning(True)
         self.pushButton_5.setFont(font)
         self.pushButton_5.setStyleSheet("border-radius:10px;\n"
-"background-image: url(:/newPrefix/image/back3.png);")
+"background-image: url(:/newPrefix/back3.png);")
         self.pushButton_5.setObjectName("pushButton_5")
 
         self.statusBar = QtWidgets.QStatusBar()
