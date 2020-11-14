@@ -24,7 +24,7 @@ class Ui_Form(object):
         self.frame = QtWidgets.QFrame(Form)
         self.frame.setGeometry(QtCore.QRect(0, 0, 450, 181))
         self.frame.setMaximumSize(QtCore.QSize(452, 4000))
-        self.frame.setStyleSheet("#frame {border:none;background-image: url(:/newPrefix/back1.png);}\n"
+        self.frame.setStyleSheet("#frame {border:none;background-image: url(:/newPrefix/image/back1.png);}\n"
 "\n"
 "")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
@@ -37,7 +37,7 @@ class Ui_Form(object):
 "background-color: rgb(255, 255, 255);")
         self.pushButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/newPrefix/faction.png"), QtGui.QIcon.Normal, QtGui.QIcon.On)
+        icon.addPixmap(QtGui.QPixmap(":/newPrefix/image/faction.png"), QtGui.QIcon.Normal, QtGui.QIcon.On)
         self.pushButton.setIcon(icon)
         self.pushButton.setIconSize(QtCore.QSize(96, 96))
         self.pushButton.setObjectName("pushButton")
@@ -59,7 +59,7 @@ class Ui_Form(object):
 "background-color: transparent;")
         self.pushButton_2.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/newPrefix/login.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap(":/newPrefix/image/login.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_2.setIcon(icon1)
         self.pushButton_2.setIconSize(QtCore.QSize(30, 30))
         self.pushButton_2.setObjectName("pushButton_2")
@@ -69,7 +69,7 @@ class Ui_Form(object):
 "background-color: transparent;")
         self.pushButton_3.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/newPrefix/mima.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap(":/newPrefix/image/mima.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_3.setIcon(icon2)
         self.pushButton_3.setIconSize(QtCore.QSize(35, 35))
         self.pushButton_3.setObjectName("pushButton_3")

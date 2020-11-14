@@ -22,7 +22,7 @@ class Ui_Form5(object):
         self.frame = QtWidgets.QFrame(Form)
         self.frame.setGeometry(QtCore.QRect(-1, -1, 601, 601))
         self.frame.setStyleSheet("#frame {border-radius:18px;\n"
-"background-image: url(:/newPrefix/back3.png)}")
+"background-image: url(:/newPrefix/image/back3.png)}")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")

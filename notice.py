@@ -23,7 +23,7 @@ class Ui_Form10(object):
         font = QtGui.QFont()
         font.setFamily("幼圆")
         self.frame.setFont(font)
-        self.frame.setStyleSheet("#frame {background-image: url(:/newPrefix/back9.png);border:none;}\n"
+        self.frame.setStyleSheet("#frame {background-image: url(:/newPrefix/image/back9.png);border:none;}\n"
 "")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
@@ -66,7 +66,7 @@ class Ui_Form10(object):
         font.setFamily("幼圆")
         font.setPointSize(11)
         self.pushButton.setFont(font)
-        self.pushButton.setStyleSheet("background-image: url(:/newPrefix/button.png);border-radius:10px;border:none;")
+        self.pushButton.setStyleSheet("background-image: url(:/newPrefix/image/button.png);border-radius:10px;border:none;")
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.frame)
         self.pushButton_2.setGeometry(QtCore.QRect(100, 170, 95, 35))
@@ -74,7 +74,7 @@ class Ui_Form10(object):
         font.setFamily("幼圆")
         font.setPointSize(11)
         self.pushButton_2.setFont(font)
-        self.pushButton_2.setStyleSheet("background-image: url(:/newPrefix/button.png);border-radius:10px;border:none;")
+        self.pushButton_2.setStyleSheet("background-image: url(:/newPrefix/image/button.png);border-radius:10px;border:none;")
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.frame)
         self.pushButton_3.setGeometry(QtCore.QRect(290, 170, 95, 35))
@@ -82,7 +82,7 @@ class Ui_Form10(object):
         font.setFamily("幼圆")
         font.setPointSize(11)
         self.pushButton_3.setFont(font)
-        self.pushButton_3.setStyleSheet("background-image: url(:/newPrefix/button.png);border-radius:10px;border:none;")
+        self.pushButton_3.setStyleSheet("background-image: url(:/newPrefix/image/button.png);border-radius:10px;border:none;")
         self.pushButton_3.setObjectName("pushButton_3")
 
 

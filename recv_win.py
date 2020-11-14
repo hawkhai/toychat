@@ -22,7 +22,7 @@ class Ui_Form6(object):
         # Form.move(977, 516)
         self.frame = QtWidgets.QFrame(Form)
         self.frame.setGeometry(QtCore.QRect(-1, -1, 401, 400))
-        self.frame.setStyleSheet("#frame {border:none;border-radius:12px;background-image: url(:/newPrefix/back5.png)}")
+        self.frame.setStyleSheet("#frame {border:none;border-radius:12px;background-image: url(:/newPrefix/image/back5.png)}")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
@@ -63,7 +63,7 @@ class Ui_Form6(object):
         font.setFamily("幼圆")
         font.setPointSize(12)
         self.pushButton_2.setFont(font)
-        self.pushButton_2.setStyleSheet("background-image: url(:/newPrefix/button.png);border-radius:10px;")
+        self.pushButton_2.setStyleSheet("background-image: url(:/newPrefix/image/button.png);border-radius:10px;")
         self.pushButton_2.setObjectName("pushButton_2")
 
         self.pushButton_3 = QtWidgets.QPushButton(self.frame)
@@ -72,7 +72,7 @@ class Ui_Form6(object):
         font.setFamily("幼圆")
         font.setPointSize(12)
         self.pushButton_3.setFont(font)
-        self.pushButton_3.setStyleSheet("background-image: url(:/newPrefix/button.png);border-radius:10px;")
+        self.pushButton_3.setStyleSheet("background-image: url(:/newPrefix/image/button.png);border-radius:10px;")
         self.pushButton_3.setObjectName("pushButton_2")
 
 

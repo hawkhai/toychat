@@ -24,7 +24,7 @@ class Ui_Form5(object):
         self.frame = QtWidgets.QFrame(Form)
         self.frame.setGeometry(QtCore.QRect(0, -1, 720, 700))
         self.frame.setStyleSheet("#frame {border-radius:18px;\n"
-"background-image: url(:/newPrefix/back4.png)}")
+"background-image: url(:/newPrefix/image/back4.png)}")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
@@ -110,7 +110,7 @@ class Ui_Form5(object):
 "")
         self.toolButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/newPrefix/clear.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/newPrefix/image/clear.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.toolButton.setIcon(icon)
         self.toolButton.setIconSize(QtCore.QSize(70, 25))
         self.toolButton.setObjectName("toolButton")
@@ -148,7 +148,7 @@ class Ui_Form5(object):
         font.setFamily("幼圆")
         font.setPointSize(13)
         self.pushButton_2.setFont(font)
-        self.pushButton_2.setStyleSheet("background-image: url(:/newPrefix/button.png);border-radius:10px;")
+        self.pushButton_2.setStyleSheet("background-image: url(:/newPrefix/image/button.png);border-radius:10px;")
         self.pushButton_2.setObjectName("pushButton_2")
 
         self.retranslateUi(Form)
