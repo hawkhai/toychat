@@ -1,17 +1,17 @@
 <RCC>
   <qresource prefix="newPrefix">
-    <file>faction.png</file>
-    <file>button.png</file>
-    <file>clear.png</file>
-    <file>back3.png</file>
-    <file>back4.png</file>
-    <file>back5.png</file>
-    <file>back6.png</file>
-    <file>back7.png</file>
-    <file>back9.png</file>
-    <file>bar.png</file>
-      <file>back1.png</file>
-      <file>login.png</file>
-      <file>mima.png</file>
+    <file>image/faction.png</file>
+    <file>image/button.png</file>
+    <file>image/clear.png</file>
+    <file>image/back3.png</file>
+    <file>image/back4.png</file>
+    <file>image/back5.png</file>
+    <file>image/back6.png</file>
+    <file>image/back7.png</file>
+    <file>image/back9.png</file>
+    <file>image/bar.png</file>
+    <file>image/back1.png</file>
+    <file>image/login.png</file>
+    <file>image/mima.png</file>
   </qresource>
 </RCC>
